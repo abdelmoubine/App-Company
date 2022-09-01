@@ -1,0 +1,63 @@
+.logo-container .logo {
+    overflow: hidden;
+    width: 200px;
+    height: 90px;
+    float: left;
+}
+
+body::-webkit-scrollbar{background-color:#ffffff;width:10px}
+body::-webkit-scrollbar-thumb{background:#0081fa}
+body::-moz-selection{background:#0081fa;color:#FFF}
+::-moz-selection{background:#0081fa;color:#FFF}
+::selection{background:#0081fa;color:#FFF}
+
+.social li i{color:#FFF;width:28px;height:28px;line-height:28px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;display:inline-block;text-align:center;}
+
+.social .fa-vk{background-color:#45668e}
+.social .fa-facebook{background-color:#3b5998}
+.social .fa-twitter{background-color:#1da1f2}
+.social .fa-rss{background-color:#f26522}
+.social .fa-dribbble{background-color:#ea4c89}
+.social .fa-pinterest{background-color:#cc2127}
+.social .fa-linkedin{background-color:#0976b4}
+.social .fa-wordpress{background-color:#00769d}
+.social .fa-github{background-color:#000000}
+.social .fa-youtube{background-color:#e52d27}
+.social .fa-quora{background-color:#a82400}
+.social .fa-spotify{background-color:#1ed760}
+.social .fa-snapchat{background-color:#f5d602}
+.social .fa-instagram{background-color:#7c38af;background:radial-gradient(circle at 0 130%, 
+    #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)}
+.social .fa-behance{background-color:#009fff}
+.social .fa-whatsapp{background-color:#189d0e}
+.social .fa-soundcloud{background-color:#FF5419}
+.social .fa-tumblr{background-color:#3e5a70}
+.social .fa-telegram{background-color:#32AEE1}
+.social .fa-messenger{background-color:#0084ff}
+.social .fa-paypal{background-color:#193685}
+.social .fa-reddit{background-color:#ff4500}
+.social .fa-website{background-color:#444444}
+.fa-website:before{content:"\f0ac"}
+
+.social-static li:hover{-webkit-animation:abdelmoubineSocialMedia .2s ease-in-out;-moz-animation:abdelmoubineSocialMedia .2s ease-in-out;-o-animation:abdelmoubineSocialMedia .2s ease-in-out;animation:abdelmoubineSocialMedia .2s ease-in-out}
+
+@-webkit-keyframes abdelmoubineSocialMedia{
+50%{-webkit-transform:scale(0.7);transform:scale(0.7)}
+100%{-webkit-transform:scale(1.5);transform:cale(1.5)}
+}
+@-moz-keyframes abdelmoubineSocialMedia{
+50%{-webkit-transform:scale(0.7);-moz-transform:scale(0.7);transform:scale(0.7)}
+100%{-webkit-transform:scale(1.5);-moz-transform:cale(1.5);transform:cale(1.5)}
+}
+@-o-keyframes abdelmoubineSocialMedia{
+50%{-webkit-transform:scale(0.7);-o-transform:scale(0.7);transform:scale(0.7)}
+100%{-webkit-transform:scale(1.5);-o-transform:cale(1.5);transform:cale(1.5)}
+}
+@keyframes abdelmoubineSocialMedia{
+50%{-webkit-transform:scale(0.7);-moz-transform:scale(0.7);-o-transform:scale(0.7);transform:scale(0.7)}
+100%{-webkit-transform:scale(1.5);-moz-transform:cale(1.5);-o-transform:cale(1.5);transform:cale(1.5)}
+}
+
+div .social i {color:#FFF;width:28px;height:28px;line-height:28px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;display:inline-block;text-align:center;}
+
+.social-static a:hover{-webkit-animation:abdelmoubineSocialMedia .2s ease-in-out;-moz-animation:abdelmoubineSocialMedia .2s ease-in-out;-o-animation:abdelmoubineSocialMedia .2s ease-in-out;animation:abdelmoubineSocialMedia .2s ease-in-out}
